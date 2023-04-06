@@ -92,8 +92,23 @@ a{
     height: 160px;
     border-radius: 15px;
 }
-.container-text-img{
+.container-info{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+.container-info-imgs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 120px;
+}
+
+.container-text-img p {
+    display: flex;
+    flex-shrink: 1;
+    width: 160px;
+    
+    text-align: center;
 }
