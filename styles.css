@@ -86,3 +86,10 @@ a{
 .container-header p {
     width: 400px;
 }
+
+.container-info img{
+    width: 160px;
+    height: 160px;
+    border-radius: 15px;
+    display: flex;
+}
